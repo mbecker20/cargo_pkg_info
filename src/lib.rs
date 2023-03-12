@@ -1,0 +1,11 @@
+pub const CARGO_MANIFEST_DIR: &str = env!("CARGO_MANIFEST_DIR");
+pub const CARGO_PKG_AUTHORS: &str = env!("CARGO_PKG_AUTHORS");
+pub const CARGO_PKG_DESCRIPTION: &str = env!("CARGO_PKG_DESCRIPTION");
+pub const CARGO_PKG_HOMEPAGE: &str = env!("CARGO_PKG_HOMEPAGE");
+pub const CARGO_PKG_NAME: &str = env!("CARGO_PKG_NAME");
+pub const CARGO_PKG_REPOSITORY: &str = env!("CARGO_PKG_REPOSITORY");
+pub const CARGO_PKG_VERSION: &str = env!("CARGO_PKG_VERSION");
+pub const CARGO_PKG_VERSION_MAJOR: &str = env!("CARGO_PKG_VERSION_MAJOR");
+pub const CARGO_PKG_VERSION_MINOR: &str = env!("CARGO_PKG_VERSION_MINOR");
+pub const CARGO_PKG_VERSION_PATCH: &str = env!("CARGO_PKG_VERSION_PATCH");
+pub const CARGO_PKG_VERSION_PRE: &str = env!("CARGO_PKG_VERSION_PRE");
